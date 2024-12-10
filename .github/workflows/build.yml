@@ -11,7 +11,7 @@ jobs:
   build_android:
     strategy:
       matrix:
-        arch: ["aarch32", "aarch64", "x86", "x86_64"]
+        arch: ["aarch32"]
         version: [17, 21]
       fail-fast: false
 
